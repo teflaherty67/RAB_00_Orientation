@@ -27,6 +27,8 @@ namespace RAB_00_Orientation
 
             TaskDialog.Show("Test", "This is my first command add-in");
 
+            TaskDialog.Show("Test", "This is a change I made to my first command add-in");
+
             return Result.Succeeded;
         }
     }
