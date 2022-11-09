@@ -29,7 +29,9 @@ namespace RAB_00_Orientation
 
             TaskDialog.Show("Test", "This is a change I made to my first command add-in");
 
-            TaskDialog.Show("Test", "This is ayet another change I made to my first command add-in");
+            TaskDialog.Show("Test", "This is yet another change I made to my first command add-in");
+            
+             TaskDialog.Show("Test", "This is a change I made in GitHub to my first command add-in");
 
             return Result.Succeeded;
         }
