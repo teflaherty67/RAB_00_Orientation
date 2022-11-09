@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command RAB_00_Orientation</Text>
+    <Description>Some description for RAB_00_Orientation</Description>
+    <Assembly>RAB_00_Orientation.dll</Assembly>
+    <FullClassName>RAB_00_Orientation.Command</FullClassName>
+    <ClientId>27f3ceb5-683f-4c8f-8df8-3e3d925b197d</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application RAB_00_Orientation</Name>
+    <Assembly>RAB_00_Orientation.dll</Assembly>
+    <FullClassName>RAB_00_Orientation.App</FullClassName>
+    <ClientId>8fb84886-64e2-486c-b4bf-37029dc99ca0</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>
